@@ -1,0 +1,14 @@
+.select2-container{
+    width: 100%!important;
+    /* overflow-x: hidden; */
+}
+.select2-container--default .select2-selection--multiple{
+    padding: 0!important;
+}
+span.select2-search.select2-search--inline {
+    line-height: 32px;
+}
+.select2-container .select2-search--inline .select2-search__field {
+    height: 22px!important;
+    line-height: 13px;
+}

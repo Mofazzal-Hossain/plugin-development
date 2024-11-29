@@ -1,0 +1,67 @@
+a{
+  text-decoration: none;
+}
+a:focus{
+  box-shadow: none;
+}
+.container-fluid {
+  margin: 20px auto;
+  max-width: 80%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.person-list-display table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+.person-list-display th,
+.person-list-display td {
+  padding: 12px 15px;
+}
+.person-list-display th {
+  background-color: #4caf50;
+  color: white;
+}
+.person-list-display tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.person-list-display tr:hover {
+  background-color: #ddd;
+}
+.person-list-display td {
+  border-bottom: 1px solid #ddd;
+}
+
+.add-person {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: purple;
+  width: 100px;
+  text-align: center;
+  border-radius: 100px;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.add-person:hover{
+  background: #4caf50;
+}
+.add-person a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  display: block;
+}
+.add-person:hover a {
+  color: white;
+}

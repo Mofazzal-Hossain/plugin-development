@@ -1,0 +1,1 @@
+alert('alert from another.js');
